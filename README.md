@@ -217,3 +217,47 @@ TOKEN超时切换到登录页自动保留了账号密码
 稳定性改进
 增加了一些ETH预置矿池
 修复了目标矿池为SSL连不上的问题
+# KENC文档说明
+<p id="kenc"></p>
+
+### KENC是本地->远程HX隧道，局域网部署在一台设备上即可，可与远程MYMinerProxy通过KENC协议进行通信。
+
+<a href="https://github.com/mykjMinerProxy/MinerProxy/blob/main/kenc/kenc_v_win.exe">点击下载WINDOWS客户端</a>
+
+<a href="https://github.com/mykjMinerProxy/MinerProxy/blob/main/kenc/kenc_v_linux.linux">点击下载LINUX客户端</a>
+
+### 使用环境
+```
+HXMinerproxy版本>=2.1.0
+```
+
+## 使用说明
+
+### 1.远程HXminerproxy先配置一个KENC协议的端口
+<img width="630" alt="1" src="https://user-images.githubusercontent.com/105948962/171179214-747821f3-9e5c-4d81-9612-a145b7e55795.png">
+
+
+### 2.本地找一台电脑运行KENC, 运行成功后会提示, 根据提示访问地址去配置自己的KENC客户端
+
+<img width="634" alt="2" src="https://user-images.githubusercontent.com/105948962/171179255-13803e93-55b2-49f2-b2ee-8f22d2533bf4.png">
+
+
+### 3. 打开网页kenc客户端, 默认密码admin123
+
+![3](https://user-images.githubusercontent.com/105948962/171179263-840fe02d-7328-438b-863c-75b64a3875d6.png)
+
+
+### 4. 添加本地端口
+![4](https://user-images.githubusercontent.com/105948962/171179282-cf8c9635-a43e-4f4c-8eaa-6c42da50a5a2.png)
+
+
+<ul>
+    <li>先随便填写个本地端口 小于65535的数字</li>
+    <li>本地协议选择TCP或SSL，选择采矿设备支持的协议即可</li>
+    <li>目标地址填写远程的MYMinerproxy的连接地址，链接地址为远程ip:端口号</li>
+    <li>最大连接数默认无上限</li>
+</ul>
+
+### 5. 局域网的所有采矿设备的连接地址填写局域网安装KENC的设备IP地址+本地端口号即可, 通常直接连接图内地址即可
+<img width="1825" alt="5" src="https://user-images.githubusercontent.com/105948962/171179305-eaf4ee1e-eb91-4e19-8a29-cecdfaf6b15a.png">
+
