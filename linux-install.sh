@@ -1,13 +1,13 @@
 
 #!/bin/bash
-# Author: mykjMinerProxy
-# github: https://github.com/mykjMinerProxy
+# Author: MYMinerProxy
+# github: https://github.com/MYMinerProxy
 
 VERSION="2.3.0"
 
-DOWNLOAD_HOST="https://github.com/mykjMinerProxy/MinerProxy/raw/main/Linux"
+DOWNLOAD_HOST="https://github.com/MYMinerProxy/MinerProxy/raw/main/Linux"
 
-DOWNLOAD_STANDBY="https://github.com/mykjMinerProxy/MinerProxy/raw/main/Linux"
+DOWNLOAD_STANDBY="https://github.com/MYMinerProxy/MinerProxy/raw/main/Linux"
 
 PATH_KT="/root/MinerProxy"
 
