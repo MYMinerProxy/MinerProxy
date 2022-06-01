@@ -13,7 +13,7 @@
 使用root用户输入下面命令安装或卸载
 # linux一键安装脚本
 bash <(curl -s -L https://raw.githubusercontent.com/MYMinerProxy/MinerProxy/main/linux-install.sh)
-## Windows 直接下载运行 <a href="https://github.com/MYMinerProxy/MinerProxy/tree/main/%E8%A7%86%E7%AA%97">Release</a></br>
+## Windows 直接下载运行 <a href="https://github.com/MYMinerProxy/MinerProxy/tree/main/Windows">Release</a></br>
 - - -
 # 默认账号密码
  默认账号: admin 默认密码: admin123
