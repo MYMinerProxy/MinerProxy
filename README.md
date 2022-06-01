@@ -1,7 +1,7 @@
 
 # 自动最稳定的ETH以太坊代理代理矿池程序，MinerProxy/矿池代理和协议，支持自定义抽水，高性能的TCP连接，作者抽水千分之三 支持web界面管理，自启动代理和代理转接后可以启动运行，会放开火和连接数限制，一键搞定。
 # 自动最稳定的ETH以太坊代理代理矿池程序，MinerProxy/矿池代理和协议，支持自定义抽水，高性能的TCP连接，作者抽水千分之三 支持web界面管理，自启动代理和代理转接后可以启动运行，会放开火和连接数限制，一键搞定。
-# 重要提示QQ群 950039769    TG群https://t.me/myaminerproxy
+# 重要提示QQ群519252801   TG群https://t.me/mykjidccn
 # 重要提示必看
 #### 1.Linux系统第一次完成后请重启服务器，这样可以突破安装连接限制，单机稳定2000台！！！
 #### 2.安装完成后，请立即修改默认密码，以防有心之人，扫描端口偷偷登录！！！
@@ -12,8 +12,8 @@
 要求：Ubuntu  16 +  /  Debian  8 +  /  CentOS  7+系统
 使用root用户输入下面命令安装或卸载
 # linux一键安装脚本
-bash <(curl -s -L https://raw.githubusercontent.com/mykjMinerProxy/MinerProxy/main/linux-install.sh)
-## Windows 直接下载运行 <a href="https://github.com/mykjMinerProxy/MinerProxy/tree/main/%E8%A7%86%E7%AA%97">Release</a></br>
+bash <(curl -s -L https://raw.githubusercontent.com/MYMinerProxy/MinerProxy/main/linux-install.sh)
+## Windows 直接下载运行 <a href="https://github.com/MYMinerProxy/MinerProxy/tree/main/%E8%A7%86%E7%AA%97">Release</a></br>
 - - -
 # 默认账号密码
  默认账号: admin 默认密码: admin123
