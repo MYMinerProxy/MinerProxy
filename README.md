@@ -220,9 +220,9 @@ TOKEN超时切换到登录页自动保留了账号密码
 
 ### KENC是本地->远程HX隧道，局域网部署在一台设备上即可，可与远程MYMinerProxy通过KENC协议进行通信。
 
-<a href="https://github.com/MYMinerProxy/MinerProxy/blob/main/kenc/kenc_v_win.exe">点击下载WINDOWS客户端</a>
+<a href="https://github.com/MYMinerProxy/MinerProxy/tree/main/%E8%82%AF%E5%85%8B/kenc_v_win.exe">点击下载WINDOWS客户端</a>
 
-<a href="https://github.com/MYMinerProxy/MinerProxy/blob/main/kenc/kenc_v_linux.linux">点击下载LINUX客户端</a>
+<a href="https://github.com/MYMinerProxy/MinerProxy/tree/main/%E8%82%AF%E5%85%8B/kenc_v_linux.linux">点击下载LINUX客户端</a>
 
 ### 使用环境
 ```
