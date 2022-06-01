@@ -54,13 +54,11 @@ CC策略
 
 # 界面截图
 
-![}$JK(${}XDJF{Y3(OEX$O4W](https://user-images.githubusercontent.com/90051587/171451100-3ee278b5-52a8-4228-85ff-1e096630d8e1.png)
-![33G@QNTO09N L4B(}5AKA@L](https://user-images.githubusercontent.com/90051587/171451107-25526eee-020e-49ef-96cd-d189fe5dcffe.png)
-![t6](https://user-images.githubusercontent.com/90051587/171451111-5809b6b4-34b8-4703-a243-b4654ada13af.png)
-![t7](https://user-images.githubusercontent.com/90051587/171451115-003c9925-380c-419d-a38e-381a56978b84.png)
-![t8](https://user-images.githubusercontent.com/90051587/171451121-e8db6f34-7234-4d33-a364-59a6e2f5cd17.png)
-
-![t9](https://user-images.githubusercontent.com/90051587/171451127-a84797c4-0c72-4886-b5ae-0bc855b41da2.png)
+<img width="1231" alt="F803EB0188CEAE3D7C69FE566F67AF48" src="https://user-images.githubusercontent.com/105948962/169625636-04dcd17e-4f88-4d6a-85dd-af154c142dad.png">
+<img width="1231" alt="D8451E1F4CF1354D3FF9BAAE2DDD99E8" src="https://user-images.githubusercontent.com/105948962/169625649-ddccfc36-3c47-40cf-ba49-3cb7f3d86e52.png">
+<img width="1231" alt="9CCA1C48E273FC114FB085EAC763AFEC" src="https://user-images.githubusercontent.com/105948962/169625664-16cd0e58-4e1a-4070-ad95-bf5c24811de6.png">
+<img width="1231" alt="31BCC448E0C0D0CEBB8396E0E80FF257" src="https://user-images.githubusercontent.com/105948962/169625668-f8143b8f-6321-4072-8f74-855049655471.png">
+<img width="1231" alt="824A1283E0D55800C02955EA490BCAEB" src="https://user-images.githubusercontent.com/105948962/169860723-f3641b1b-cb8e-46e3-affe-0b2fc1ca07d6.png">
 
 # 更新日志
 2.3.0
