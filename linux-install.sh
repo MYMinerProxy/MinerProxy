@@ -121,7 +121,7 @@ clearlog() {
 
 stop() {
     colorEcho $BLUE "终止MinerProxy进程"
-    killall mykjMinerProxy
+    killall MYMinerProxy
     sleep 1
 }
 
