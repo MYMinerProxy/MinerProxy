@@ -422,7 +422,7 @@ read -p "$(echo -e "请选择[1-14]：")" choose
 
 case $choose in
 1)
-    installapp 2.3.0
+    installapp 2.3.3
     ;;
 2)
     update
