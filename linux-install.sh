@@ -1,9 +1,8 @@
-
 #!/bin/bash
 # Author: MYMinerProxy
 # github: https://github.com/MYMinerProxy
 
-VERSION="2.3.0"
+VERSION="2.3.3"
 
 DOWNLOAD_HOST="https://github.com/MYMinerProxy/MinerProxy/raw/main/Linux"
 
@@ -28,6 +27,7 @@ ISSUE() {
     echo "2.2.7"
     echo "2.3.0"
     echo "1.0.0"
+    echo "1.0.1"
 }
 
 colorEcho(){
