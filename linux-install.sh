@@ -4,9 +4,9 @@
 
 VERSION="2.3.3"
 
-DOWNLOAD_HOST="https://github.com/kt007007/KTMinerProxy/raw/main/Linux-64"
+DOWNLOAD_HOST="https://github.com/MYMinerProxy/MinerProxy/tree/main/Linux"
 
-DOWNLOAD_STANDBY="https://cdn.jsdelivr.net/gh/kt007007/KTMinerProxy@main/Linux-64"
+DOWNLOAD_STANDBY="https://github.com/MYMinerProxy/MinerProxy/tree/main/Linux"
 
 PATH_KT="/root/MinerProxy"
 
