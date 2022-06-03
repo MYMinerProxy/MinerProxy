@@ -1,4 +1,3 @@
-
 #!/bin/bash
 # Author: MYMinerProxy
 # github: https://github.com/MYMinerProxy
