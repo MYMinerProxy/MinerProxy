@@ -1,6 +1,6 @@
 #!/bin/bash
-# Author: MYMinerProxy
-# github: https://github.com/MYMinerProxy
+# Author: MinerProxy
+# github: https://github.com/MinerProxy
 
 VERSION="2.3.3"
 
@@ -17,17 +17,33 @@ PATH_CACHE="/root/MinerProxy/.cache"
 PATH_CONFIG="/root/MinerProxy/.env"
 
 PATH_NOHUP="/root/MinerProxy/nohup.out"
-PATH_ERR="/root/mykjMinerProxy/err.log"
+PATH_ERR="/root/MinerProxy/err.log"
 
 
 PATH_TURN_ON="/etc/profile.d"
 PATH_TURN_ON_SH="/etc/profile.d/ktm.sh"
 
 ISSUE() {
+    echo "1.0.0"
+    echo "1.1.0"
+    echo "1.1.1"
+    echo "1.1.2"
+    echo "1.1.3"
+    echo "1.1.4"
+    echo "1.1.5"
+    echo "2.0.0"
+    echo "2.0.1"
+    echo "2.1.0"
+    echo "2.1.1"
+    echo "2.2.0"
+    echo "2.2.1"
+    echo "2.2.2"
+    echo "2.2.3"
+    echo "2.2.4"
+    echo "2.2.5"
+    echo "2.2.6"
     echo "2.2.7"
     echo "2.3.0"
-    echo "1.0.0"
-    echo "1.0.1"
 }
 
 colorEcho(){
@@ -119,8 +135,8 @@ clearlog() {
 }
 
 stop() {
-    colorEcho $BLUE "终止MinerProxy进程"
-    killall MYMinerProxy
+    colorEcho $BLUE "终止MYMinerProxy进程"
+    killall ktproxy
     sleep 1
 }
 
@@ -181,12 +197,12 @@ turn_on() {
         echo 'if [ $COUNT -eq 0 ] && [ $(id -u) -eq 0 ]; then' >> $PATH_TURN_ON_SH
         echo "  cd ${PATH_KT}" >> $PATH_TURN_ON_SH
         echo "  nohup "${PATH_KT}/${PATH_EXEC}" 2>err.log &" >> $PATH_TURN_ON_SH
-        echo '  echo "MinerProxy已启动"' >> $PATH_TURN_ON_SH
+        echo '  echo "KTProxy已启动"' >> $PATH_TURN_ON_SH
         echo 'else' >> $PATH_TURN_ON_SH
         echo '  if [ $COUNT -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "MinerProxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
+        echo '      echo "KTProxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
         echo '  elif [ $(id -u) -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "使用ROOT用户登录才能启动MinerProxy"' >> $PATH_TURN_ON_SH
+        echo '      echo "使用ROOT用户登录才能启动KTPROXY"' >> $PATH_TURN_ON_SH
         echo '  fi' >> $PATH_TURN_ON_SH
         echo 'fi' >> $PATH_TURN_ON_SH
 
@@ -253,7 +269,7 @@ installapp() {
         return
     fi
 
-    checkProcess "MinerProxy"
+    checkProcess "ktproxy"
     if [ $? -eq 1 ]; then
         colorEcho ${RED} "发现正在运行的MinerProxy, 需要停止才可继续安装。"
         colorEcho ${YELLOW} "输入1停止正在运行的MinerProxy并且继续安装, 输入2取消安装。"
