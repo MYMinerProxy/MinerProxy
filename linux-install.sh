@@ -1,3 +1,4 @@
+
 #!/bin/bash
 # Author: MYMinerProxy
 # github: https://github.com/MYMinerProxy
@@ -17,17 +18,16 @@ PATH_CACHE="/root/MinerProxy/.cache"
 PATH_CONFIG="/root/MinerProxy/.env"
 
 PATH_NOHUP="/root/MinerProxy/nohup.out"
-PATH_ERR="/root/mykjMinerProxy/err.log"
+PATH_ERR="/root/MinerProxy/err.log"
 
 
 PATH_TURN_ON="/etc/profile.d"
 PATH_TURN_ON_SH="/etc/profile.d/ktm.sh"
 
 ISSUE() {
-    echo "2.2.7"
-    echo "2.3.0"
     echo "1.0.0"
     echo "1.0.1"
+    echo "2.3.0"
 }
 
 colorEcho(){
@@ -120,7 +120,7 @@ clearlog() {
 
 stop() {
     colorEcho $BLUE "终止MinerProxy进程"
-    killall MYMinerProxy
+    killall MinerProxy
     sleep 1
 }
 
@@ -186,7 +186,7 @@ turn_on() {
         echo '  if [ $COUNT -ne 0 ]; then' >> $PATH_TURN_ON_SH
         echo '      echo "MinerProxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
         echo '  elif [ $(id -u) -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "使用ROOT用户登录才能启动MinerProxy"' >> $PATH_TURN_ON_SH
+        echo '      echo "使用ROOT用户登录才能启动KTPROXY"' >> $PATH_TURN_ON_SH
         echo '  fi' >> $PATH_TURN_ON_SH
         echo 'fi' >> $PATH_TURN_ON_SH
 
@@ -353,12 +353,12 @@ check_limit() {
 check_hub() {
     # cd $PATH_KT
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/ktmproxy/nohup.out
+    tail -f /root/MinerProxy/nohup.out
 }
 
 check_err() {
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/ktmproxy/err.log
+    tail -f /root/MinerProxy/err.log
 }
 
 install_target() {
