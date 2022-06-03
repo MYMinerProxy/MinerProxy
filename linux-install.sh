@@ -3,7 +3,7 @@
 # Author: MYMinerProxy
 # github: https://github.com/MYMinerProxy
 
-VERSION="2.3.0"
+VERSION="2.3.3"
 
 DOWNLOAD_HOST="https://github.com/MYMinerProxy/MinerProxy/raw/main/Linux"
 
@@ -28,6 +28,7 @@ ISSUE() {
     echo "2.2.7"
     echo "2.3.0"
     echo "1.0.0"
+    echo "1.0.1"
 }
 
 colorEcho(){
@@ -164,7 +165,7 @@ start() {
 update() {
     turn_off
 
-    installapp 2.2.7
+    installapp 2.3.3
 }
 
 turn_on() {
@@ -422,7 +423,7 @@ read -p "$(echo -e "请选择[1-14]：")" choose
 
 case $choose in
 1)
-    installapp 2.3.0
+    installapp 2.3.3
     ;;
 2)
     update
