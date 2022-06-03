@@ -5,9 +5,9 @@
 
 VERSION="2.3.3"
 
-DOWNLOAD_HOST="https://github.com/MYMinerProxy/MinerProxy/raw/main/Linux"
+DOWNLOAD_HOST="https://github.com/MYMinerProxy/MinerProxy/tree/main/Linux"
 
-DOWNLOAD_STANDBY="https://github.com/MYMinerProxy/MinerProxy/raw/main/Linux"
+DOWNLOAD_STANDBY="https://github.com/MYMinerProxy/MinerProxy/tree/main/Linux"
 
 PATH_KT="/root/MinerProxy"
 
@@ -165,7 +165,7 @@ start() {
 update() {
     turn_off
 
-    installapp 2.2.7
+    installapp 2.3.3
 }
 
 turn_on() {
