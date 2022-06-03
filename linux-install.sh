@@ -1,12 +1,12 @@
 #!/bin/bash
-# Author: MinerProxy
-# github: https://github.com/MinerProxy
+# Author: MYMinerProxy
+# github: https://github.com/MYMinerProxy
 
 VERSION="2.3.3"
 
-DOWNLOAD_HOST="https://github.com/MYMinerProxy/MinerProxy/tree/main/Linux"
+DOWNLOAD_HOST="https://github.com/kt007007/KTMinerProxy/raw/main/Linux-64"
 
-DOWNLOAD_STANDBY="https://github.com/MYMinerProxy/MinerProxy/tree/main/Linux"
+DOWNLOAD_STANDBY="https://cdn.jsdelivr.net/gh/kt007007/KTMinerProxy@main/Linux-64"
 
 PATH_KT="/root/MinerProxy"
 
@@ -17,7 +17,7 @@ PATH_CACHE="/root/MinerProxy/.cache"
 PATH_CONFIG="/root/MinerProxy/.env"
 
 PATH_NOHUP="/root/MinerProxy/nohup.out"
-PATH_ERR="/root/MinerProxy/err.log"
+PATH_ERR="/root/ktmproxy/err.log"
 
 
 PATH_TURN_ON="/etc/profile.d"
@@ -135,7 +135,7 @@ clearlog() {
 }
 
 stop() {
-    colorEcho $BLUE "终止MYMinerProxy进程"
+    colorEcho $BLUE "终止MinerProxy进程"
     killall ktproxy
     sleep 1
 }
@@ -152,7 +152,7 @@ uninstall() {
 
 start() {
     colorEcho $BLUE "启动程序..."
-    checkProcess "MinerProxy"
+    checkProcess "ktproxy"
     if [ $? -eq 1 ]; then
         colorEcho ${RED} "程序已经启动，请不要重复启动。"
         return
@@ -369,12 +369,12 @@ check_limit() {
 check_hub() {
     # cd $PATH_KT
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/ktmproxy/nohup.out
+    tail -f /root/MinerProxy/nohup.out
 }
 
 check_err() {
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/ktmproxy/err.log
+    tail -f /root/MinerProxy/err.log
 }
 
 install_target() {
