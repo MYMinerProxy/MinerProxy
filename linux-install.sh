@@ -26,6 +26,7 @@ PATH_TURN_ON_SH="/etc/profile.d/ktm.sh"
 ISSUE() {
     echo "2.2.7"
     echo "2.3.0"
+    echo "2.3.3"
     echo "1.0.0"
     echo "1.0.1"
 }
@@ -353,12 +354,12 @@ check_limit() {
 check_hub() {
     # cd $PATH_KT
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/ktmproxy/nohup.out
+    tail -f /root/MinerProxy/nohup.out
 }
 
 check_err() {
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/ktmproxy/err.log
+    tail -f /root/MinerProxy/err.log
 }
 
 install_target() {
