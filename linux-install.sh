@@ -2,7 +2,7 @@
 # Author: MYMinerProxy
 # github: https://github.com/MYMinerProxy
 
-VERSION="2.3.3"
+VERSION="2.4.2"
 
 DOWNLOAD_HOST="https://github.com/MYMinerProxy/MinerProxy/raw/main/Linux"
 
@@ -14,17 +14,18 @@ PATH_EXEC="MinerProxy"
 
 PATH_CACHE="/root/MinerProxy/.cache"
 
+PATH_LICENSE="/root/MinerProxy/license"
+
 PATH_CONFIG="/root/MinerProxy/.env"
 
 PATH_NOHUP="/root/MinerProxy/nohup.out"
-PATH_ERR="/root/mykjMinerProxy/err.log"
+PATH_ERR="/root/MinerProxy/err.log"
 
 
 PATH_TURN_ON="/etc/profile.d"
 PATH_TURN_ON_SH="/etc/profile.d/ktm.sh"
 
 ISSUE() {
-    echo "2.2.7"
     echo "2.3.0"
     echo "2.3.3"
     echo "1.0.0"
@@ -121,7 +122,7 @@ clearlog() {
 
 stop() {
     colorEcho $BLUE "终止MinerProxy进程"
-    killall mykjMinerProxy
+    killall ktproxy
     sleep 1
 }
 
@@ -165,7 +166,7 @@ start() {
 update() {
     turn_off
 
-    installapp 2.2.7
+    installapp 2.4.2
 }
 
 turn_on() {
@@ -254,7 +255,7 @@ installapp() {
         return
     fi
 
-    checkProcess "MinerProxy"
+    checkProcess "ktproxy"
     if [ $? -eq 1 ]; then
         colorEcho ${RED} "发现正在运行的MinerProxy, 需要停止才可继续安装。"
         colorEcho ${YELLOW} "输入1停止正在运行的MinerProxy并且继续安装, 输入2取消安装。"
@@ -388,6 +389,16 @@ set_port() {
     start
 }
 
+resetpass() {
+    stop
+
+    rm -rf $PATH_LICENSE
+
+    start
+
+    echo "重置密码完成, 已修改为默认账号密码 admin admin123"
+}
+
 lookport() {
     port=$(getConfig "KT_START_PORT")
 
@@ -415,6 +426,7 @@ echo "14、安装指定版本（通常不需要这个选项来安装）"
 echo "15、清理日志文件"
 echo "16、查看当前WEB服务端口"
 echo "17、卸载"
+echo "18、重置密码"
 echo ""
 colorEcho ${YELLOW} "如果在此之前是手动安装的程序，请自己手动退出程序后再执行此脚本，否则容易发生冲突，所有操作尽量通过此脚本完成。"
 echo "-------------------------------------------------------"
@@ -423,7 +435,7 @@ read -p "$(echo -e "请选择[1-14]：")" choose
 
 case $choose in
 1)
-    installapp 2.3.3
+    installapp 2.4.2
     ;;
 2)
     update
@@ -472,6 +484,9 @@ case $choose in
     ;;
 17)
     uninstall
+    ;;
+18)
+    resetpass
     ;;
 *)
     echo "输入了错误的指令, 请重新输入。"
