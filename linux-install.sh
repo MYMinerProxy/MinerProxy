@@ -255,7 +255,7 @@ installapp() {
         return
     fi
 
-    checkProcess "ktproxy"
+    checkProcess "MinerProxy"
     if [ $? -eq 1 ]; then
         colorEcho ${RED} "发现正在运行的MinerProxy, 需要停止才可继续安装。"
         colorEcho ${YELLOW} "输入1停止正在运行的MinerProxy并且继续安装, 输入2取消安装。"
