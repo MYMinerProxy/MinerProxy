@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/hellominer/hellominer/docs/logo.png" alt="Logo" width="150" height="150">
+<img src="https://user-images.githubusercontent.com/90051587/192698262-306b6432-d94a-4b3f-951a-8b30487e3d47.png" alt="Logo" width="150" height="150">
 
 <br>
 
