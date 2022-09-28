@@ -35,7 +35,7 @@ Web界面操作，简单易用，一键安装，小白可以轻松上手。可�
 10. 采用Golang语言开发，网络性能优异。
 11. 全部web界面操作，简单易用，小白也能轻松驾驭，同时web界面还适配手机，手机上也能轻松操作。
 12. 单机2核，4g，稳定带5000+矿机。
-13. 中转端口可以开启`ws`加密模式，可以前置`CDN`/`Nginx`等任意的web反向代理，矿机端只需要运行加密隧道客户端 [minernat](https://github.com/hellominer/minernat) 即可连接`ws`中转端口，全程加密，防止被监控。
+13. 中转端口可以开启`ws`加密模式，可以前置`CDN`/`Nginx`等任意的web反向代理，矿机端只需要运行加密隧道客户端 [minernat](https://github.com/MYMinerProxy/MinerProxy/minernat) 即可连接`ws`中转端口，全程加密，防止被监控。
 14. 中转端口可以开启`ssl/tls`加密模式，配置域名证书和密钥，全程加密，防止被监控。
 15. 支持ssl/tls加密协议和tcp协议。
 16. 程序支持注册为系统服务，开机自启动，管理端口可以通过配置文件自由修改。
@@ -63,7 +63,7 @@ Web界面操作，简单易用，一键安装，小白可以轻松上手。可�
 如果是小白，可以执行下面的一键安装脚本，就把hellominer安装为了系统服务。
 
 ```shell
-bash -c "$(curl -s -L https://github.com/hellominer/hellominer/raw/main/install.sh)" @ install
+bash -c "$(curl -s -L https://github.com/MYMinerProxy/MinerProxy/raw/main/install.sh)" @ install
 ```
 
 具体程序的`启动`，`停止`，`重启`，`状态`命令如下：
@@ -82,7 +82,7 @@ bash -c "$(curl -s -L https://github.com/hellominer/hellominer/raw/main/install.
 更新程序只需要执行：
 
 `
-bash -c "$(curl -s -L https://github.com/hellominer/hellominer/raw/main/install.sh)" @ update
+bash -c "$(curl -s -L https://github.com/MYMinerProxy/MinerProxy/raw/main/install.sh)" @ update
 `
 
 #### 修改程序配置
@@ -90,12 +90,12 @@ bash -c "$(curl -s -L https://github.com/hellominer/hellominer/raw/main/install.
 hellominer提供了一键配置脚本只需运行：
 
 `
-bash -c "$(curl -s -L https://github.com/hellominer/hellominer/raw/main/tools.sh)"
+bash -c "$(curl -s -L https://github.com/MYMinerProxy/MinerProxy/raw/main/tools.sh)"
 `
 
 ### 方式二：手动安装
 
-1. [点击下载 MYminerProxy.tar.gz](https://github.com/hellominer/hellominer/raw/main/releases/hellominer.tar.gz) 。
+1. [点击下载 MYminerProxy.tar.gz](https://github.com/MYMinerProxy/MinerProxy/raw/main/releases/hellominer.tar.gz) 。
 2. 执行：`mkdir /etc/MYminerProxy`，创建安装目录。
 3. 把文件`MYminerProxy.tar.gz`放在目录`/etc/MYminerProxy`下面。
 4. 执行：`cd /etc/MYminerProxy && tar zxfv MYminerProxy.tar.gz && ./MYminerProxy init`
@@ -111,7 +111,7 @@ bash -c "$(curl -s -L https://github.com/hellominer/hellominer/raw/main/tools.sh
 更新程序只需要复制下面命令执行即可：
 
 `
-cd /etc/hellominer && rm -rf hellominer hellominer.tar.gz && curl -o hellominer.tar.gz -s -L https://github.com/hellominer/hellominer/raw/main/releases/hellominer.tar.gz && tar zxfv hellominer.tar.gz
+cd /etc/hellominer && rm -rf hellominer hellominer.tar.gz && curl -o hellominer.tar.gz -s -L https://github.com/MYMinerProxy/MinerProxy/raw/main/releases/hellominer.tar.gz && tar zxfv hellominer.tar.gz
 `
 
 更新完毕，需要程序重启，执行：`pkill hellominer && cd /etc/MYminerProxy && ./MYminerProxy --daemon --forever --flog null`
@@ -187,28 +187,28 @@ set "ALEPHWALLET=defg.003"
 
 ### 登录页面
 
-![](https://cdn.jsdelivr.net/gh/hellominer/hellominer/docs/login.png)
+![](https://github.com/MYMinerProxy/MinerProxy/docs/login.png)
 
 ### 修改密码
 
-![](https://cdn.jsdelivr.net/gh/hellominer/hellominer/docs/changepwd.png)
+![](https://github.com/MYMinerProxy/MinerProxy/docs/changepwd.png)
 
 ### 添加矿池
 
-![](https://cdn.jsdelivr.net/gh/hellominer/hellominer/docs/addpool.png)
-![](https://cdn.jsdelivr.net/gh/hellominer/hellominer/docs/addpool2.png)
+![](https://github.com/MYMinerProxy/MinerProxy/docs/addpool.png)
+![](https://github.com/MYMinerProxy/MinerProxy/docs/addpool2.png)
 
 ### 添加抽水账号
 
-![](https://cdn.jsdelivr.net/gh/hellominer/hellominer/docs/addaccount.png)
+![](https://github.com/MYMinerProxy/MinerProxy/docs/addaccount.png)
 
 ### CC攻击管理
 
-![](https://cdn.jsdelivr.net/gh/hellominer/hellominer/docs/cc.png)
+![](https://github.com/MYMinerProxy/MinerProxy/docs/cc.png)
 
 ### 端口统计
 
-![](https://cdn.jsdelivr.net/gh/hellominer/hellominer/docs/index.png)
+![](https://github.com/MYMinerProxy/MinerProxy/docs/index.png)
 
 ## 开发抽水比例
 
