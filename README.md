@@ -95,7 +95,7 @@ bash -c "$(curl -s -L https://github.com/MYMinerProxy/MinerProxy/raw/main/tools.
 
 ### 方式二：手动安装
 
-1. [点击下载 MYminerProxy.tar.gz](https://github.com/MYMinerProxy/MinerProxy/raw/main/releases/hellominer.tar.gz) 。
+1. [点击下载 MYminerProxy.tar.gz](https://github.com/hellominer/hellominer/raw/main/releases/hellominer.tar.gz) 。
 2. 执行：`mkdir /etc/MYminerProxy`，创建安装目录。
 3. 把文件`MYminerProxy.tar.gz`放在目录`/etc/MYminerProxy`下面。
 4. 执行：`cd /etc/MYminerProxy && tar zxfv MYminerProxy.tar.gz && ./MYminerProxy init`
@@ -208,7 +208,7 @@ set "ALEPHWALLET=defg.003"
 ## 开发抽水比例
 
 ```text
-根据自定义抽水和矿机情况，0.2% - 0.8% 之间，不是简单阶梯算法较为复杂，不要再试探性的问我抽多少你抽多少。
+根据自定义抽水和矿机情况，0.3% ，不要再试探性的问我抽多少你抽多少。
 ```
 
 ## 问题交流
