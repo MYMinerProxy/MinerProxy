@@ -20,7 +20,7 @@
 正版MYminerProxy专业矿池中转，支持 ETH、ETC、BTC、RVN、ERG、CFX、LTC、XMR、KDA、TON、ALPH、SERO、FIRO、BEAM、ETHW、ETF、FLUX、KAS，可免费定制，打造专属自己的minerproxy矿池中转，有需要进群找群主。
 Web界面操作，简单易用，一键安装，小白可以轻松上手。可以自定义抽水，独创PID抽水算法，稳定精准，秒杀一切市面上随机抽水算法。完美适配各种专业机芯片机。
 采用Golang语言开发，性能稳定优异。无视CC，自动CC防护，自动封IP。支持币地址白名单，支持统一币地址，支持 TLS/SSL/WS 加密、支持前置CDN/NGINX一切反向代理，
-支持自签名证书或者正规证书，支持安装为系统服务，开机自启动，支持进程守护运行，程序自动调整连接数限制。Telegram交流群 [点击加入](https://t.me/hellominer_group) 。
+支持自签名证书或者正规证书，支持安装为系统服务，开机自启动，支持进程守护运行，程序自动调整连接数限制。Telegram交流群 [点击加入](https://t.me/+4cTlWpZA9AAwYTFl) 。
 
 ## 功能特色
 
