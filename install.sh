@@ -3,7 +3,7 @@ PATH_TO_DIR="/etc/MYminerProxy/"
 BIN_NAME="MYminerProxy"
 PATH_TO_BIN=${PATH_TO_DIR}${BIN_NAME}
 SERVICE_NAME=${BIN_NAME}
-DOWNLOAD_ADDR="https://github.com/MYMinerProxy/MinerProxy/tree/main/releases/MYminerProxy.tar.gz"
+DOWNLOAD_ADDR="https://github.com/MYminerProxy/minerProxy/raw/main/releases/MYminerProxy.tar.gz"
 case $1 in
 install)
 	if [ -f ${PATH_TO_BIN} ]; then
