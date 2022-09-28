@@ -187,28 +187,22 @@ set "ALEPHWALLET=defg.003"
 
 ### 登录页面
 
-![]([https://cdn.jsdelivr.net/gh/docs/login.png)
+![login](https://user-images.githubusercontent.com/90051587/192697625-a5ee954d-859e-4339-baaf-b0ed59712acd.png)
+
 
 ### 修改密码
 
-![](https://github.com/MYMinerProxy/MinerProxy/docs/changepwd.png)
+![changepwd](https://user-images.githubusercontent.com/90051587/192697673-aa9f5717-47c9-427b-a6fc-bdd1974c0e62.png)
+
 
 ### 添加矿池
+![Uploading addpool.png…]()
+![addpool2](https://user-images.githubusercontent.com/90051587/192697741-053414f3-7b85-493f-b759-037b51e3700d.png)
 
-![](https://github.com/MYMinerProxy/MinerProxy/docs/addpool.png)
-![](https://github.com/MYMinerProxy/MinerProxy/docs/addpool2.png)
 
 ### 添加抽水账号
+![addaccount](https://user-images.githubusercontent.com/90051587/192697777-6eacd69f-1d1f-410b-8063-3e007acd2e0f.png)
 
-![](https://github.com/MYMinerProxy/MinerProxy/docs/addaccount.png)
-
-### CC攻击管理
-
-![](https://github.com/MYMinerProxy/MinerProxy/docs/cc.png)
-
-### 端口统计
-
-![](https://github.com/MYMinerProxy/MinerProxy/docs/index.png)
 
 ## 开发抽水比例
 
