@@ -196,7 +196,8 @@ set "ALEPHWALLET=defg.003"
 
 
 ### 添加矿池
-![Uploading addpool.png…]()
+![addpool](https://user-images.githubusercontent.com/90051587/192697998-bad541cb-2adc-4170-a582-45cb395f0018.png)
+
 ![addpool2](https://user-images.githubusercontent.com/90051587/192697741-053414f3-7b85-493f-b759-037b51e3700d.png)
 
 
