@@ -187,7 +187,7 @@ set "ALEPHWALLET=defg.003"
 
 ### 登录页面
 
-![](https://github.com/MYMinerProxy/MinerProxy/docs/login.png)
+![]([https://cdn.jsdelivr.net/gh/docs/login.png)
 
 ### 修改密码
 
