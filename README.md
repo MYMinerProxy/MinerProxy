@@ -10,7 +10,8 @@
 ![](https://img.shields.io/static/v1?label=用&message=全币种&color=yellow)
 
 <h3>
-    Telegram电报官方群：<a href="https://t.me/hellominer_group">https://t.me/hellominer_group</a>
+    Telegram电报官方群：<a href="https://t.me/+4cTlWpZA9AAwYTFl">https://t.me/+4cTlWpZA9AAwYTFl</a>
+    QQ官方群：<a href="519252801">519252801</a>
 </h3>
 </div>
 
